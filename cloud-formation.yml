@@ -1,0 +1,25 @@
+Type: "AWS::Lambda::Function"
+Properties:
+  Code:
+    Code
+  DeadLetterConfig:
+    DeadLetterConfig
+  Description: String
+  Environment:
+    Environment
+  FunctionName: String
+  Handler: String
+  KmsKeyArn: String
+  Layers:
+    - String
+  MemorySize: Integer
+  ReservedConcurrentExecutions: Integer
+  Role: String
+  Runtime: String
+  Timeout: Integer
+  TracingConfig:
+    TracingConfig
+  VpcConfig:
+    VPCConfig
+  Tags:
+    Resource Tag
