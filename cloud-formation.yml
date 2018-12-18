@@ -1,21 +1,9 @@
 Type: "AWS::Lambda::Function"
 Properties:
   Code:
-    "S3Bucket": "arn:aws:s3:::codepipeline-eu-west-1-357194014379",
+    "S3Bucket": "arn:aws:s3:::codepipeline-eu-west-1-357194014379"
     "S3Key": "Alexa-EUC-skill-pipe"
-  FunctionName: String
-  Handler: String
-  KmsKeyArn: String
-  Layers:
-    - String
-  MemorySize: Integer
-  ReservedConcurrentExecutions: Integer
-  Role: String
-  Runtime: String
-  Timeout: Integer
-  TracingConfig:
-    TracingConfig
-  VpcConfig:
-    VPCConfig
-  Tags:
-    Resource Tag
+
+  Handler: "aws-serverless-repository-alexaskillskitnodejsfact-1EYKZE2GJSJQ7"
+  Role: "arn:aws:iam::501237108406:role/aws-serverless-repository-alexaskillskitnodejsfact-R7R5RXC0EHVC"
+  Runtime: "nodejs8.10"
